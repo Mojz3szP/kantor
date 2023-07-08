@@ -1,0 +1,14 @@
+.Html{
+    box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+.body{
+    background-color: black;
+    color: white;
+    max-width: 700px;
+    text-align: center;
+    margin:auto;
+}
+

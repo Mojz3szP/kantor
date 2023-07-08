@@ -1,0 +1,57 @@
+.form__Data{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(123, 142, 90);
+    margin-bottom: 20px;
+    margin:auto;
+}
+.form__Label{
+    font-size: 20px;
+    max-width: 700px;
+    width: 100%;
+    color: rgb(123, 142, 90);
+}
+.form__Field{
+    border: 4px solid rgb(123, 142, 90);
+    border-radius: 5%;
+    background: black;
+    max-width: 700px;
+}
+.form___Field{
+    border: 2px solid rgb(123, 142, 90);
+    padding: 6px;
+    margin:auto;
+    background: black;
+    max-width: 700px;
+    color: white;
+    font-size: 20px;  
+}
+.form__Button{
+    width: 90%;
+    border: solid;
+    background-color: rgb(123, 142, 90);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 20px;
+    max-width: 700px;
+
+}
+.form__Button:active{
+    background-color: green;
+}
+.form__result{
+    font-size: 20px;
+}
+.Button_reset{
+    width: 90%;
+    max-width: 700px;
+    border: solid;
+    border-color: black;
+    background-color: rgb(123, 142, 90);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
