@@ -1,5 +1,5 @@
 # Wymiana walut
-[Kantor - klinij tutaj](https://mojz3szp.github.io/kantor/)
+[Kantor - klinij tutaj](https://mojz3szp.github.io/kantor/kantor.html)
 
 ## Kursy
 1. EUR - 4,48
