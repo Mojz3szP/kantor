@@ -42,7 +42,9 @@
     background-color: green;
 }
 .form__result{
-    font-size: 20px;
+    font-size: 40px;
+    color:  rgb(255, 255, 255);
+    font-weight: bolder;
 }
 .Button_reset{
     width: 90%;
