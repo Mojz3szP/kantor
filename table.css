@@ -1,10 +1,10 @@
 .table{
     max-width: 400px;
     width: 100%;
-    border: thick double rgb(19, 91, 19);
-    border-color: rgb(19, 91, 19);
-    border-style: double;
-    background-color: rgb(90, 132, 76); 
+    border: thick solid rgb(254, 254, 254);
+    border-color: rgb(250, 252, 250);
+    border-style: solid;
+    background-color: rgb(133, 90, 142);
     margin: auto;
     padding: 25px;
     border-collapse: collapse;
@@ -13,7 +13,7 @@
     font-size: 20px;
 }
 .Table_cell{
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     text-align: center; 
 }
 .Table_head{

@@ -1,7 +1,7 @@
 .form__Data{
     font-size: 30px;
     font-weight: bold;
-    color: rgb(123, 142, 90);
+    color: rgb(133, 90, 142);
     margin-bottom: 20px;
     margin:auto;
 }
@@ -9,16 +9,16 @@
     font-size: 20px;
     max-width: 700px;
     width: 100%;
-    color: rgb(123, 142, 90);
+    color: rgb(133, 90, 142);
 }
 .form__Field{
-    border: 4px solid rgb(123, 142, 90);
+    border: 4px solid rgb(255, 255, 255);
     border-radius: 5%;
     background: black;
     max-width: 700px;
 }
 .form___Field{
-    border: 2px solid rgb(123, 142, 90);
+    border: 2px solid rgb(255, 255, 255);
     padding: 6px;
     margin:auto;
     background: black;
@@ -29,11 +29,11 @@
 .form__Button{
     width: 90%;
     border: solid;
-    background-color: rgb(123, 142, 90);
+    background-color: rgb(133, 90, 142);
     color: black;
     padding: 10px;
     border-radius: 5px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     font-size: 20px;
     max-width: 700px;
 
@@ -48,10 +48,11 @@
     width: 90%;
     max-width: 700px;
     border: solid;
-    border-color: black;
-    background-color: rgb(123, 142, 90);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(133, 90, 142);
     color: black;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
+    margin: 10px;
 }
