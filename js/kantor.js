@@ -20,23 +20,24 @@ switch (currency) {
         
     }}
 
+const onFormSubmit = (event) => {
+        event.preventDefault(); 
+        const currencyElement = document.querySelector(".js-currency");
+        const amountElement = document.querySelector(".js-amount");
+        const resultElement = document.querySelector(".js-result");
+        const amount = +amountElement.value;
+        const currency = currencyElement.value;
+        let result = calculateResult(amount, currency);
+    
+       
+    
+        resultElement.innerHTML= `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}<strong>`;
+        };
 
 const init = () => {
  const formElement = document.querySelector(".js-form");
 
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault(); 
-    const currencyElement = document.querySelector(".js-currency");
-    const amountElement = document.querySelector(".js-amount");
-    const resultElement = document.querySelector(".js-result");
-    const amount = +amountElement.value;
-    const currency = currencyElement.value;
-    let result = calculateResult(amount, currency);
-
-   
-
-    resultElement.innerHTML= result.toFixed(2)
-    });
+formElement.addEventListener("submit", onFormSubmit)
     };
 
  init();
