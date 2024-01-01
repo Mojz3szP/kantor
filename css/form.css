@@ -39,7 +39,10 @@
 
 }
 .form__Button:active{
-    background-color: green;
+    background-color: rgb(128, 0, 100);
+}
+.Button_reset:active{
+    background-color: rgb(128, 0, 100);
 }
 .form__result{
     font-size: 40px;
@@ -59,4 +62,7 @@
     border-radius: 5px;
     font-size: 20px;
     margin: 10px;
+}
+.click:hover{
+    background-color:purple;
 }
