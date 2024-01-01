@@ -45,6 +45,8 @@
     font-size: 40px;
     color:  rgb(255, 255, 255);
     font-weight: bolder;
+    border: solid white;
+    background-color: black;
 }
 .Button_reset{
     width: 90%;
