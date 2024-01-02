@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="Gam.png">
-    <link rel="icon" href="Gam.png">
-    <link href="../kantor/css/kantor.css" rel="stylesheet">
-    <link href="../kantor/css/table.css" rel="stylesheet">
-    <link href="../kantor/css/form.css" rel="stylesheet">
-    <link href="../kantor/css/footer.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="Gam.png" />
+    <link rel="icon" href="Gam.png" />
+    <link href="../kantor/css/kantor.css" rel="stylesheet" />
+    <link href="../kantor/css/table.css" rel="stylesheet" />
+    <link href="../kantor/css/form.css" rel="stylesheet" />
+    <link href="../kantor/css/footer.css" rel="stylesheet" />
     <script defer src="../kantor/js/kantor.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>KANTOR</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <form class="form js-form">
-        <fieldset class="form__Field">
-         <p>
-             <legend class="form__Data">Wymiana walut</legend>   
-             <label>
-                <span class="form__Label">Kwota</span>
-                <input type="number" step="any" name="amount" min="1" class="form___Field js-amount" placeholder="Wartość w PLN">
-             </label>
-         </p>
-         <p>
-            <label>
-                <span class="form__Label">Waluta</span>
-                <select name="currency" class="form___Field js-currency">
-                  <option value="EUR">Euro (EUR)</option>
-                  <option value="GBP">Funt brytyjski (GBP)</option>
-                  <option value="USD">Dolar amerykański (USD)</option>
-                  <option value="CHF">Frank szwajcarski(CHF)</option>  
-                </select>
-            </label>
-         </p>
-        </fieldset>
+      <fieldset class="form__Field">
         <p>
-            <button class="form__Button click">Oblicz!</button>
-            <button type="reset" class="Button_reset click">Wyczyść!</button>
+          <legend class="form__Data">Wymiana walut</legend>
+          <label>
+            <span class="form__Label">Kwota</span>
+            <input
+              type="number"
+              step="any"
+              name="amount"
+              min="1"
+              class="form___Field js-amount"
+              placeholder="Wartość w PLN"
+            />
+          </label>
         </p>
-        <p class="form__result"><strong class="js-result">N/a</strong></p>
+        <p>
+          <label>
+            <span class="form__Label">Waluta</span>
+            <select name="currency" class="form___Field js-currency">
+              <option value="EUR">Euro (EUR)</option>
+              <option value="GBP">Funt brytyjski (GBP)</option>
+              <option value="USD">Dolar amerykański (USD)</option>
+              <option value="CHF">Frank szwajcarski(CHF)</option>
+            </select>
+          </label>
+        </p>
+      </fieldset>
+      <p>
+        <button class="form__Button click">Oblicz!</button>
+        <button type="reset" class="Button_reset click">Wyczyść!</button>
+      </p>
+      <p class="form__result"><strong class="js-result">N/a</strong></p>
     </form>
-   
-     <table class="table">
-      <tr>  
-       <th class="Table_head">Waluta</th>
-       <th class="Table_head">Kurs</th>  
-      </tr> 
+
+    <table class="table">
+      <tr>
+        <th class="Table_head">Waluta</th>
+        <th class="Table_head">Kurs</th>
+      </tr>
       <tr>
         <td class="Table_cell">EUR</td>
         <td class="Table_cell">4,47</td>
@@ -71,5 +87,5 @@
     <footer>
       <h2 class="footer">Wszystkie prawa zastrzeżone :P</h2>
     </footer>
-</body>
+  </body>
 </html>

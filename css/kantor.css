@@ -1,15 +1,16 @@
-.Html{
-    box-sizing: border-box;
+.Html {
+  box-sizing: border-box;
 }
-*, ::after, ::before{
-    box-sizing: inherit;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
-.body{
-    background-color: black;
-    color: white;
-    max-width: 700px;
-    text-align: center;
-    margin:auto;
-    background-image: url(../image/1000_F_163236700_U5AHki3aEhVkX7dpd2FMAdY33q4f4CFO.jpg);
+.body {
+  background-color: black;
+  color: white;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  background-image: url(../image/1000_F_163236700_U5AHki3aEhVkX7dpd2FMAdY33q4f4CFO.jpg);
 }
-
