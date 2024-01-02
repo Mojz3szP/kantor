@@ -12,5 +12,6 @@
   max-width: 700px;
   text-align: center;
   margin: auto;
-  background-image: url(../image/1000_F_163236700_U5AHki3aEhVkX7dpd2FMAdY33q4f4CFO.jpg);
+  background: center / cover no-repeat
+    url(../image/36a7f2f87b2d936faebf9cc8454a0992.jpg);
 }
